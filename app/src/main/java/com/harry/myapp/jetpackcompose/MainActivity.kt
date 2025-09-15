@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
+import com.harry.myapp.jetpackcompose.ui.components.Image.ImageSample
 import com.harry.myapp.jetpackcompose.ui.components.textfield.TextFieldSample
 import com.harry.myapp.jetpackcompose.ui.theme.JetpackComposeTheme
 
@@ -13,7 +14,7 @@ class MainActivity : ComponentActivity() {
         enableEdgeToEdge()
         setContent {
             JetpackComposeTheme {
-                TextFieldSample()
+                ImageSample()
             }
         }
     }
